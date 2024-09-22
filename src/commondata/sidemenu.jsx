@@ -1,27 +1,20 @@
-// joshi--------------------------------
-
-
-
-
-
-
 export const MENUITEMS = [
-  // {
-  //   menutitle: "MAIN",
-  //   Items: [
-  //     {
-  //       path: `${import.meta.env.BASE_URL}dashboard`, icon: "fe fe-home", type: "link", active: false, title: "Dashboard",
-  //     },
-  //   ],
-  // },
-  // {
-  //   // menutitle: "MAIN",
-  //   Items: [
-  //     {
-  //       path: `${import.meta.env.BASE_URL}academics`, icon: "database", type: "link", active: false, title: "Academics",
-  //     },
-  //   ],
-  // },
+  {
+    menutitle: "MAIN",
+    Items: [
+      {
+        path: `${import.meta.env.BASE_URL}dashboard`, icon: "fe fe-home", type: "link", active: false, title: "Dashboard",
+      },
+    ],
+  },
+  {
+    // menutitle: "MAIN",
+    Items: [
+      {
+        path: `${import.meta.env.BASE_URL}academics`, icon: "database", type: "link", active: false, title: "Academics",
+      },
+    ],
+  },
   {
     menutitle: "Academics",
     Items: [
